@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="images/dashboard.png" alt="Logo" width="80" height="80">
+<img src="images/dashboard.png" alt="Thumbnail">
 
 This project is build to track all your income and expense, created using reactjs combined with nodejs, express and postgresql
 
@@ -71,28 +71,28 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 1. **User Registration**, this page will hit ```localhost://3030/authentication/register``` in server and create new user using your input
 
-<img src="images/signup.png" alt="Logo" width="80" height="80">
+<img src="images/signup.png" alt="Logo" >
 
 
 2. **User Login**, this page will hit ```localhost://3030/authentication/login``` in server and authenticate your input with user information in postgres, 
     if success it will sign the JWT token to browser
 
-<img src="images/signin.png" alt="Logo" width="80" height="80">
+<img src="images/signin.png" alt="Logo" >
 
 
 3. **Dashboard**, this page will hit ```localhost://3030/home``` in server and send all user information and transaction history in database to frontend
 
-<img src="images/dashboard.png" alt="Logo" width="80" height="80">
+<img src="images/dashboard.png" alt="Logo" >
 
 
 4. **Add transaction**, this page will hit ```localhost://3030/transaction/add``` in server and post a transaction record based on user data in form
 
-<img src="images/add-transaction.png" alt="Logo" width="80" height="80">
+<img src="images/add-transaction.png" alt="Logo">
 
 
 5. **Delete**, this page will hit ```localhost://3030/transaction/delete``` in server and delete transcation record (using transactionID to filter)
 
-<img src="images/delete.png" alt="Logo" width="80" height="80">
+<img src="images/delete.png" alt="Logo">
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
