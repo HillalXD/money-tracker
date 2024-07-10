@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ruda:wght@400;600;700&display=swap");
+:root {
+  --light: #f6f6f9;
+  --primary: #1976d2;
+  --light-primary: #cfe8ff;
+  --grey: #fff;
+  --dark-grey: #aaaaaa;
+  --dark: #3b3b3b;
+  --danger: #d32f2f;
+  --light-danger: #fecdd3;
+  --warning: #fbc02d;
+  --light-warning: #fff2c6;
+  --success: #388e3c;
+  --light-success: #bbf7d0;
+}
+
+<<<<<<< HEAD
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light);
+  font-family: "poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+
+  .container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--grey);
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow-x: hidden;
+=======
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "poppins", sans-serif;
+  padding: 0;
+  margin: 10px;
+  height: 100vh;
+
+  .container {
+    max-width: 1280px;
+    width: 100%;
+    height: 98%;
+    margin: 0 auto;
+    background-color: var(--grey);
+    overflow: scroll;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+>>>>>>> d08f619 (mongodb migrate and google oauth)
+
+    h1 {
+      text-align: center;
+    }
+
+<<<<<<< HEAD
+    .cards{
+=======
+    .cards {
+>>>>>>> d08f619 (mongodb migrate and google oauth)
+      display: flex;
+      flex-direction: column;
+      padding: 2rem;
+      margin: 0 35px;
+      border-radius: 15px 15px 0 0;
+      background-color: var(--light);
+<<<<<<< HEAD
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+=======
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+        0 1px 2px 0 rgba(0, 0, 0, 0.06);
+>>>>>>> d08f619 (mongodb migrate and google oauth)
+
+      .card-balance {
+        display: flex;
+        align-items: center;
+        font-size: 50px;
+        justify-content: center;
+        flex: 6;
+        gap: 10px;
+        margin: 10px 0;
+      }
+
+<<<<<<< HEAD
+      .card-info{
+        display: flex;
+
+        .card-budget{
+=======
+      .card-info {
+        display: flex;
+
+        .card-budget {
+>>>>>>> d08f619 (mongodb migrate and google oauth)
+          display: flex;
+          flex: 6;
+          align-items: center;
+          gap: 10px;
+          border-radius: 0 10px 10px 0;
+          padding: 10px;
+          background-color: var(--light-danger);
+          justify-content: center;
+<<<<<<< HEAD
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+          .info{
+=======
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+            0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+          .info {
+>>>>>>> d08f619 (mongodb migrate and google oauth)
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+<<<<<<< HEAD
+            h3{
+              font-size: 30px;
+              font-weight: bold;
+            }
+
+          }
+
+          @media screen and (max-width: 460px) {
+            .card-budget{
+=======
+            h3 {
+              font-size: 30px;
+              font-weight: bold;
+            }
+          }
+
+          @media screen and (max-width: 460px) {
+            .card-budget {
+>>>>>>> d08f619 (mongodb migrate and google oauth)
+              font-size: 15px;
+            }
+          }
+        }
+
+<<<<<<< HEAD
+        .card-expense{
+=======
+        .card-expense {
+>>>>>>> d08f619 (mongodb migrate and google oauth)
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          flex: 6;
+          align-self: center;
+          border-radius: 10px 0 0 10px;
+          padding: 10px;
+          justify-content: center;
+          background-color: var(--light-success);
+<<<<<<< HEAD
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+          .info{
+=======
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+            0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+          .info {
+>>>>>>> d08f619 (mongodb migrate and google oauth)
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+<<<<<<< HEAD
+            h3{
+=======
+            h3 {
+>>>>>>> d08f619 (mongodb migrate and google oauth)
+              font-size: 30px;
+              font-weight: bold;
+            }
+          }
+        }
+<<<<<<< HEAD
+
+
+      }
+
+      .add-transaction{
+        background-color: #FFFFFF;
+=======
+      }
+
+      .add-transaction {
+        background-color: #ffffff;
+>>>>>>> d08f619 (mongodb migrate and google oauth)
+        border: 0;
+        margin-top: 10px;
+        border-radius: 1rem;
+        box-sizing: border-box;
+        color: #111827;
+<<<<<<< HEAD
+        font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: .875rem;
+        font-weight: 600;
+        line-height: 1.25rem;
+        padding: .75rem 1rem;
+        text-align: center;
+        text-decoration: none #D1D5DB solid;
+        text-decoration-thickness: auto;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+=======
+        font-family: "Inter var", ui-sans-serif, system-ui, -apple-system,
+          system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+          sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+          "Noto Color Emoji";
+        font-size: 0.875rem;
+        font-weight: 600;
+        line-height: 1.25rem;
+        padding: 0.75rem 1rem;
+        text-align: center;
+        text-decoration: none #d1d5db solid;
+        text-decoration-thickness: auto;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+          0 1px 2px 0 rgba(0, 0, 0, 0.06);
+>>>>>>> d08f619 (mongodb migrate and google oauth)
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        font-size: 15px;
+      }
+
+<<<<<<< HEAD
+      .add-transaction:hover{
+        background-color: var(--dark);
+        color: white;
+        
+=======
+      .add-transaction:hover {
+        background-color: var(--dark);
+        color: white;
+>>>>>>> d08f619 (mongodb migrate and google oauth)
+      }
+
+      .add-transaction:active {
+        transform: scale(0.98);
+      }
+    }
+
+<<<<<<< HEAD
+    .tbl_content{
+=======
+    .tbl_content {
+>>>>>>> d08f619 (mongodb migrate and google oauth)
+      padding: 2rem;
+      background-color: var(--light);
+      margin: 1rem 2rem;
+      border-radius: 5px;
+<<<<<<< HEAD
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+      h3{
+        font-size: 2rem;
+        margin: .3rem 0;
+      }
+
+      .tbl_data{
+=======
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+        0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+      h3 {
+        font-size: 2rem;
+        margin: 0.3rem 0;
+      }
+
+      .tbl_data {
+>>>>>>> d08f619 (mongodb migrate and google oauth)
+        overflow-y: auto;
+        height: 200px;
+
+        .tbl_tr_content {
+          display: grid;
+          list-style-type: none;
+          grid-template-columns: 20% 25% 25% 20% 10%;
+          align-items: center;
+          background-color: var(--dark);
+          color: var(--light);
+          padding: 0.5rem 1rem;
+          border-radius: 5px;
+          margin: 0.5rem 0;
+          cursor: pointer;
+
+<<<<<<< HEAD
+          .center-child{
+=======
+          .center-child {
+>>>>>>> d08f619 (mongodb migrate and google oauth)
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+<<<<<<< HEAD
+          .amount-green{
+            color: var(--success);
+          }
+
+          .amount-red{
+            color: var(--danger);
+          }
+
+          button{
+=======
+          .amount-green {
+            color: var(--success);
+          }
+
+          .amount-red {
+            color: var(--danger);
+          }
+
+          button {
+>>>>>>> d08f619 (mongodb migrate and google oauth)
+            outline: none;
+            border: none;
+            padding: 0 10px;
+            margin-right: 5px;
+            color: var(--light);
+            padding: 0.4rem;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: var(--danger);
+          }
+
+          button:active {
+            transform: scale(0.9);
+          }
+
+          button:first-child {
+            background-color: var(--danger);
+          }
+
+          @media screen and (max-width: 780px) {
+            font-size: 11px;
+            grid-template-columns: 20% 20% 20% 20% 20%;
+          }
+
+          @media screen and (max-width: 460px) {
+            font-size: 7px;
+            grid-template-columns: 20% 20% 20% 20% 20%;
+          }
+        }
+<<<<<<< HEAD
+
+
+      }
+    }
+
+
+  }
+}
+=======
+      }
+    }
+  }
+}
+>>>>>>> d08f619 (mongodb migrate and google oauth)
