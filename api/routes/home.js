@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-import express from "express"
-import { homepage } from "../controllers/home.js"
-
-const router = express.Router()
-
-
-router.get("/", homepage)
-
-export default router
-=======
 import express from "express";
 import { homepage } from "../controllers/home.js";
 
@@ -26,4 +15,3 @@ function checkAuthentication(req, res, next) {
 router.get("/", checkAuthentication, homepage);
 
 export default router;
->>>>>>> d08f619 (mongodb migrate and google oauth)

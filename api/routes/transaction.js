@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-import express from "express"
-import { transactionAdd, transactionDelete, transactionGet } from "../controllers/transaction.js"
-
-const router = express.Router(transactionAdd)
-
-router.post("/add", transactionAdd)
-router.delete("/delete/:transactionID", transactionDelete)
-router.post("/details/:transactionID", transactionGet)
-
-export default router
-=======
 import express from "express";
 import {
   transactionAdd,
@@ -36,4 +24,3 @@ router.get("/test", checkAuthentication, (req, res) => {
 });
 
 export default router;
->>>>>>> d08f619 (mongodb migrate and google oauth)

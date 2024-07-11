@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import express from "express"
-import { login, register, logout } from "../controllers/authentication.js"
-
-const router = express.Router()
-
-
-router.post("/login", login)
-router.post("/register", register)
-router.post("/logout", logout)
-
-export default router
-=======
 import express from "express";
 import { logout } from "../controllers/authentication.js";
 import passport from "passport";
@@ -88,4 +75,3 @@ router.get("/test/users", checkAuthentication, (req, res) => {
 router.post("/logout", logout);
 
 export default router;
->>>>>>> d08f619 (mongodb migrate and google oauth)
